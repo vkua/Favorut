@@ -3,23 +3,56 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+.row{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
 /*Початок хідера*/
 header{
     background-color: #2bba13;
     height: 100px;
 }
 header>div{
+<<<<<<< Updated upstream
     margin: auto;
 }
 header img{
     height: 80px;
-    margin-top: 10px;
+=======
+    padding-left: 10%;
+    
+}
+header img{
+    width: 90%;
+    height: 50px;
+    margin-top: 25px;
+>>>>>>> Stashed changes
+    
 }
 /*кінець хідера*/
 /*Секція з бекграундом*/
 #backgroundsection{
     background-image: url(Images/background.jpg);
     background-repeat: no-repeat;
+    background-clip: padding-box;
     width: 100%;
     height: 700px;
+}
+#comersialdiv{
+    margin-top: 13%;
+    text-align: center;
+    color:#147e14;
+}
+#comersialdiv p{
+    margin-top: 15%;
+}
+.btn-success{
+    width: 60%;
+    background-color: #2bba13;
+    font-size: 200%;
+    box-sizing: border-box;
 }
