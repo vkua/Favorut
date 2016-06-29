@@ -56,3 +56,41 @@ header img{
     font-size: 200%;
     box-sizing: border-box;
 }
+#sectionof3img{
+    height: 800px;
+    margin-top: 5%;
+    background: ;
+    padding: 0;
+}
+#imgdiv{
+    margin: 0;
+    padding: 0;
+}
+#textdiv{
+    text-align: center;
+    padding-top: 100px;
+   
+}
+#circle{
+    width: 140px;
+    height: 140px;
+    border: 2px solid green;
+    border-radius: 100%;
+    margin: auto;
+    font-size:600%;
+    color:#2bba13;
+    padding-top:5%;
+}
+#textdiv h2{
+    color:#2bba13;
+    margin-top: 25px;
+    font-size: 250%;
+    font-weight: bold;
+    
+}
+#textdiv p{
+    margin-top: 25px;
+    color:#2bba13;
+    font-weight: bold;
+    font-size:125% ;
+}
