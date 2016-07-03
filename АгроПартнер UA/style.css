@@ -39,11 +39,12 @@ header img{
     background-image: url(Images/background.jpg);
     background-repeat: no-repeat;
     background-clip: padding-box;
+    background-size: 100% 100%;
     width: 100%;
-    height: 700px;
+    height: 800px;
 }
 #comersialdiv{
-    margin-top: 13%;
+    margin-top: 15%;
     text-align: center;
     color:#147e14;
 }
@@ -63,6 +64,7 @@ header img{
     padding: 0;
 }
 #imgdiv{
+    text-align: center;
     margin: 0;
     padding: 0;
 }
@@ -74,7 +76,8 @@ header img{
 #circle{
     width: 140px;
     height: 140px;
-    border: 2px solid green;
+    border: none
+        ;
     border-radius: 100%;
     margin: auto;
     font-size:600%;
@@ -97,4 +100,18 @@ header img{
 #divofsecondimg{
     margin-top: 10%;
     margin-bottom:10%;
+}
+#sectionofbackground2{
+    height: 800px;
+    margin: 0;
+    padding: 0;
+    background-image: url(Images/background2.jpg);
+    background-repeat: no-repeat;
+    background-clip:padding-box;
+    background-size: 100% 100%;
+    margin-top: 1700px;
+    width: 100%;
+}
+.comercialdiv2{
+    margin-top: 20%;
 }
