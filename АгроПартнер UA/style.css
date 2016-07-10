@@ -15,6 +15,7 @@ body{
 header{
     background-color: #2bba13;
     height: 100px;
+    z-index:2;
 }
 header>div{
 <<<<<<< Updated upstream
@@ -112,6 +113,10 @@ header img{
     margin-top: 1700px;
     width: 100%;
 }
+#sectionofbackground2 p{
+    color:#147e14;
+    font-size:200%;
+}
 .comercialdiv2{
     margin-top: 20%;
 }
@@ -137,4 +142,11 @@ header img{
 footer{
     height: 100px;
     background-color: #2bba13;
+    text-align: center;
+    z-index: 2;
+}
+footer h3{
+    color: white;
+    font-size:150%;
+    
 }
