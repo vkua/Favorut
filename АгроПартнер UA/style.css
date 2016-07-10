@@ -120,6 +120,7 @@ header img{
     height: 220px;
     margin-top: 5%;
     color:#2bba13;
+    margin-bottom: 5%;
 }
 #pronas h2{
     margin-top: 5%;
@@ -132,4 +133,8 @@ header img{
     margin-top: 5%;
     font-size:120%;
     color:#2bba13;
+}
+footer{
+    height: 100px;
+    background-color: #2bba13;
 }
