@@ -1,7 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900,900italic,700italic,700,500italic,500,400italic,300italic,300,100,100italic&subset=latin,cyrillic,cyrillic-ext,greek,latin-ext,greek-ext,vietnamese);
 body{
 	margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 .row{
     margin: 0;
@@ -120,6 +122,9 @@ header img{
 .comercialdiv2{
     margin-top: 20%;
 }
+#pronas{
+    text-align: center;
+}
 #pronas img{
     width: 220px;
     height: 220px;
@@ -129,7 +134,7 @@ header img{
 }
 #pronas h2{
     margin-top: 5%;
-    margin-left: 40%;
+    
     font-size:220%;
     color:#2bba13;
 }
@@ -149,4 +154,12 @@ footer h3{
     color: white;
     font-size:150%;
     
+}
+@media (max-width:990px){
+    #pronas {
+        text-align: center;
+    }
+    #sectionofbackground2{
+        margin-top: 1800px;
+    }
 }
