@@ -115,3 +115,21 @@ header img{
 .comercialdiv2{
     margin-top: 20%;
 }
+#pronas img{
+    width: 220px;
+    height: 220px;
+    margin-top: 5%;
+    color:#2bba13;
+}
+#pronas h2{
+    margin-top: 5%;
+    margin-left: 40%;
+    font-size:220%;
+    color:#2bba13;
+}
+#pronas p{
+    float: right;
+    margin-top: 5%;
+    font-size:120%;
+    color:#2bba13;
+}
